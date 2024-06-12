@@ -164,7 +164,6 @@ CREATE TABLE IF NOT EXISTS `kullanici` (
 --
 
 INSERT INTO `kullanici` (`kullanici_ID`, `adSoyad`, `email`, `cep_telefonu`, `sifre`) VALUES
-(29, 'Gülbahar Elik', 'elikgulbahar@gmail.com', '05324123224', '123bahar'),
 (28, 'asuman ', 'asuu@gmail.com', NULL, '1234'),
 (26, 'Merve  Nur Yalçın', 'merve@gmail.com', '11111111111', '123456'),
 (27, 'bahar elik', 'bahar@gmail.com', '11111111122', '123456');
