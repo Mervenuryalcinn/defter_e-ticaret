@@ -1,0 +1,189 @@
+#member-user-information .user-account-info{
+    border-radius: 6px;
+    border: solid 1px #e2e2e2;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-family: source_sans_proregular, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-radius: 30rem;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+    background-color: #ffffffd0;
+}
+
+#member-user-information .user-account-info .my-account-title {
+    font-size: 18px;
+    font-weight: 600;
+    color:#66004d  ;
+    flex: 1;
+}
+
+#member-user-information .user-forms {
+    display: flex;
+    border-radius: 6px;
+    margin: 35px;
+    border: solid 1px #e2e2e2;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+#member-user-information .user-forms .form-section {
+    width: 100%;
+    padding: 20px;  
+}
+
+#member-user-information .user-forms .divider {
+    border-left: solid 1px #e2e2e2;
+}
+
+#member-user-information .form-1 .button {
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+#member-user-information .font-header-sm {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#member-user-information .form-1 .form-group.form-group-stretched {
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#member-user-information .form-1 .form-group.form-group-stretched div:first-child:nth-last-child(2), 
+#member-user-information .form-1 .form-group.form-group-stretched div:first-child:nth-last-child(2) ~ div {
+    width: calc(50% - 10px);
+}
+
+#member-user-information .form-1 .form-group .input-w label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 600;
+}
+
+#member-user-information .form-1 .form-group .input {
+    height: 44px;
+}
+
+#member-user-information .form-1 .form-group .input-phone {
+    height: 44px;
+}
+
+#member-user-information .form-1 .form-group .input.textbox, 
+#member-user-information .form-1 .form-group .input.select {
+    background-color: #fbfbfb;
+    border: solid 1px #e6e6e6;
+}
+
+#member-user-information .form-1 .form-group .bordered {
+    border-radius: 6px;
+}
+
+#member-user-information .form-1 .form-group .input {
+    height: 44px;
+}
+
+#member-user-information .form-1 .form-group.form-group-stretched.phone-input .input-w:first-child {
+    width: 100px!important;
+}
+
+#member-user-information .form-1 .form-group.form-group-stretched.phone-input .input-w:nth-child(2) {
+    width: 40%;
+}
+
+#member-user-information .form-1 .form-group.form-group-stretched.phone-input button {
+    width: 40%;
+}
+
+#member-user-information .form-1 .form-group.form-group-stretched .update-phone-number {
+    height: 35px;
+    font-size: 14px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #f27a1a;
+    font-family: source_sans_proregular, sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 40px;
+    opacity: 0.4;
+}
+
+#member-user-information .form-1 .form-group.form-group-stretched .update-phone-number.updateSmsEnabled {
+    pointer-events: all;
+    opacity: 1;
+}
+
+#member-user-information .form-1 .form-group.form-group-stretched:not(.phone-input) div:first-child:nth-last-child(3), 
+#member-user-information .form-1 .form-group.form-group-stretched:not(.phone-input) div:first-child:nth-last-child(3) ~ div {
+    width: calc(33% - 10px);
+}
+
+#member-user-information .form-1 .form-group.form-group-stretched div:first-child:nth-last-child(1) {
+    width: 100%;
+}
+
+#member-user-information .form-1 .form-group .input .text {
+    font-size: 14px;
+}
+
+#member-user-information .user-forms .divider {
+    border-left: solid 1px #e2e2e2;
+}
+
+#member-user-information .password-wrapper {
+    position: relative;
+    display: flex;
+}
+
+#member-user-information .password-wrapper .password-input-area {
+    flex: 1;
+}
+
+#member-user-information .password-wrapper i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 3px;
+    top: 26px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    color: #999999;
+    cursor: pointer;
+}
+
+#member-user-information .form-1 .form-group.form-group-column {
+    font-family: source_sans_proregular, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #1B1B1B;
+    margin: 0 0 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#member-user-information .form-1 .form-group.form-group-column .text-bold {
+    font-family: source_sans_prosemibold, sans-serif;
+}
+/* Büyük Ekranlar için Stil */
+@media only screen and (min-width: 992px) {
+    #member-user-information .user-forms {
+        flex-direction: row; /* Değişiklik: Satır içindeki elemanlar */
+    }
+
+    #member-user-information .user-forms .form-section {
+        width: 50%; /* Değişiklik: Yarı genişlikte */
+    }
+}
+
